@@ -1,21 +1,43 @@
 // Операция сложение
 // Операция вычитания
 // Операция умножения
-// Операция деления 
-// 
+// Операция деления
+//
 
+// $(document).ready(function(){
+//   const screen = $('.scr-wrap');
+//   const cell = $(`<div class="cell"></div>`);
+//   const plus = '+';
+//   const equals ='=';
 
-$(document).ready(function(){
-  const screen = $('.scr-wrap');
-  const cell = $(`<div class="cell"></div>`)
-  // Клик на блок с цифрой рисует в экранчике нужную цифру, машина воспринимает ее не как строку а как число...
+//   let buttonNumber = '';
+//   $('.item').click(function(){
+//     buttonNumber = $(this).children().html();
+//     // console.log(typeof($(this).children().html()), buttonNumber, typeof(buttonNumber));
 
-  $('.item').click(function(){
-    const buttonNumber = Number($(this).children().html());
-    // console.log(typeof($(this).children().html()), buttonNumber, typeof(buttonNumber));
+//     cell.append(buttonNumber);
+//     screen.append(cell);
 
-    cell.append(buttonNumber);
-    screen.append(cell);
-  });
+//   });
 
+//   $('#equals').click(function(){
+
+//     let strArray = cell.html().split('');
+//     console.log(strArray);
+
+//     strArray.forEach((el)=>{
+//       el = Number(el);
+//       if(Number.isNaN(el)){
+//         console.log(typeof(el));
+//       }
+//       console.log(el);
+
+//     });
+//   });
+
+//   // ______________________________
+
+// });
+document.addEventListener("DOMContentLoaded", function (event) {
+  //do work
 });
